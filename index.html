@@ -10,6 +10,19 @@
 </head>
 
 <body>
+    <fieldset>
+        <legend>Select color type</legend>
+        <div>
+            <input type="radio" id="rgb" name="colorChoise" value="rgb" checked="checked">
+            <label for="rgb">rgb</label>
+        </div>
+        <div>
+            <input type="radio" id="hex" name="colorChoise" value="hex">
+            <label for="hex">hex</label>
+        </div>
+        <button type="button" onclick="displayRadioValue()">Submit</button>
+    </fieldset>
+
     <div class="container">
         <div class="block">
             <div class="color">#FFFF</div>

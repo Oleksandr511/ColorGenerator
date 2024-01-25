@@ -30,3 +30,32 @@
     color: white;
     font-size: 20px;
 }
+
+label {
+    font: 1rem 'Fira Sans',
+        sans-serif;
+}
+
+input {
+    margin: 0.4rem;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    border: solid 2px grey;
+    float: left;
+    box-shadow: 0px 5px 10px 2px rgb(34, 60, 80, 0.2);
+}
+
+fieldset:hover {
+    box-shadow: 0px 5px 10px 2px rgb(34, 60, 80, 0.5);
+}
+
+fieldset button {
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+}
